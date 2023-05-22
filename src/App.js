@@ -13,7 +13,7 @@ function App() {
 
     <div className="App">
       <Tabs
-        defaultActiveKey="profile"
+        defaultActiveKey="why"
         id="uncontrolled-tab-example"
         className="mb-3"
       >
