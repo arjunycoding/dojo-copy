@@ -7,9 +7,9 @@ export default function LessonThree() {
         <div>
             <h1>Lesson 4: Quiz Time!!!</h1>
             <div>
-                <p>Let's see how much sanskrit <i>you</i> know</p>
-                <p>Unlike last item this time I will give you a letter and you will have to figure out what it means. Same rules as last time. We also advise you to get 1 question right and then move on</p>
-                <p>Also, make sure you are carful. Hovering over an audio will play it!</p>
+                <p>
+                    OK, so you can recognize the sounds and guess the letter. But can you do the opposite. This time you will have the sanskrit letter and you will have to figure out the sound. Hover over the blue boxes to here the sound. Then, when you're ready click the audio you think is right and see if you are correct!
+                </p>
                 <div className="quiz">
                     <Quiz array={consonants.concat(vowels)} key={1} />
                 </div>
