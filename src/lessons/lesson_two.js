@@ -19,7 +19,7 @@ export default function LessonOne() {
                             return (<span>
                                 <button className="letter_button_select" key={letter.letter} onClick={() => { set_current_letter(letter) }}>{letter.letter}</button>
                                 {console.log(add_break % 5)}
-                                {(add_break % 5 == 0 && add_break < 29) || add_break == 29 || add_break === 33 ? <br /> : ""}
+                                {(add_break % 5 === 0 && add_break < 29) || add_break === 29 || add_break === 33 ? <br /> : ""}
                             </span>)
                         })}
                     </Col>
