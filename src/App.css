@@ -6,7 +6,7 @@
   background-color: inherit;
   font-family: "Tiro Devanagari Sanskrit", Arial, Helvetica, sans-serif;
   border: none;
-  font-size: 150px;
+  font-size: 200px;
 }
 
 .col {
@@ -17,7 +17,7 @@
 
 .letter_button_select {
   font-family: "Tiro Devanagari Sanskrit", Arial, Helvetica, sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   border: none;
   background-color: inherit;
 
@@ -33,4 +33,17 @@
   width: 60%;
   margin-top: 5%;
 
+}
+
+.welcome_message_content {
+  text-align: justify;
+}
+
+.col {
+  border-left: 1px solid rgb(209, 209, 209);
+}
+
+.content {
+  border: 1px solid black;
+  color: red;
 }
